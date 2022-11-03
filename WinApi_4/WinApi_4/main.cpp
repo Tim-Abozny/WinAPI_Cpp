@@ -39,12 +39,12 @@ int CALLBACK MainDlgProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		{
 		case IDC_RUN:
 			CreateProcess(
-				L"C:\\Users\\progr\\source\\repos\\testApp\\Debug\\testApp.exe",
+				L"C:\\Users\\progr\\source\\repos\\C++\\WinAPI_Cpp\\WinApi_4\\syncApp\\Debug\\syncApp.exe",
 				NULL, NULL, NULL, FALSE, NULL, NULL, NULL,
 				&si, &pi
 			);
 			CreateProcess(
-				L"C:\\Users\\progr\\source\\repos\\syncApp\\Debug\\syncApp.exe",
+				L"C:\\Users\\progr\\source\\repos\\C++\\WinAPI_Cpp\\WinApi_4\\testApp\\Debug\\testApp.exe",
 				NULL, NULL, NULL, FALSE, NULL, NULL, NULL,
 				&si, &pi
 			);

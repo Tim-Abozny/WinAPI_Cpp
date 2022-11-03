@@ -24,7 +24,7 @@ void main()
     }
 
     hFile = CreateFile(
-        L"D:\\randomWords.txt",
+        L"C:\\Users\\progr\\source\\repos\\C++\\WinAPI_Cpp\\WinApi_4\\randomWords.txt",
         GENERIC_READ,
         FILE_SHARE_READ,
         NULL, OPEN_EXISTING,

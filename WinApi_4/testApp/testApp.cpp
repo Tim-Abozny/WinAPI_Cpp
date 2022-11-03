@@ -24,7 +24,7 @@ if (over.hEvent == NULL)
 }
 
 hFile = CreateFile( //L"C:\\Users\\progr\\Desktop\\randomWords.txt"
-                    L"D:\\randomWords.txt", // slovechko
+                    L"C:\\Users\\progr\\source\\repos\\C++\\WinAPI_Cpp\\WinApi_4\\randomWords.txt", // slovechko
                     GENERIC_READ,
                     FILE_SHARE_READ,
                     NULL, OPEN_EXISTING,
